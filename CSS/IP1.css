@@ -2,4 +2,21 @@ p.intro{
   width:50%;
   font-style:italic;
   font-family: calibri;
+  float: right;
+  background-color:yellow;
+}
+
+p.author{
+  width: 75%;
+  font-style: italic;
+  font-weight: bold;
+}
+
+p.important{
+  color:red;
+}
+
+.column{
+  width:60%;
+  float:left;
 }
