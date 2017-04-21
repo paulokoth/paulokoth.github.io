@@ -1,0 +1,26 @@
+h1 {
+    color: blue;
+    font-size: 50px;
+}
+
+body {
+    text-align: justify;
+    font-style: normal;
+    font-weight: normal;
+    font-family: "calibri";
+    line-height: 21px;
+    background-image: url(../image-folder/BG1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    columns: 2;
+    column-fill: auto;
+    column-rule-style: solid;
+    column-rule-color: purple;
+    opacity: 1;
+}
+
+p {
+    color: #000007;
+}
