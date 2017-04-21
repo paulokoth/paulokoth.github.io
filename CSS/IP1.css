@@ -1,13 +1,19 @@
+body{
+  background-color: #d8f1ff;
+
+}
 .intro {
     width: 100%;
-    background-color: lightblue;
+    background-color: #0a0d54;
 }
 
 .intro p {
     font-style: italic;
+    color: white;
     font-family: calibri;
     min-height:100px;
     width:100%;
+    font-weight: lighter;
 }
 
 .intro img{
@@ -23,4 +29,15 @@ p.author {
 
 p.important {
     color: red;
+}
+
+.Projects li {
+  font-weight: bold;
+  font-style: normal;
+  font-family: sans-serif;
+  font: 40px;
+}
+
+.Resume {
+  columns:3;
 }
