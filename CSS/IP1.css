@@ -1,22 +1,26 @@
-p.intro{
-  width:50%;
-  font-style:italic;
-  font-family: calibri;
-  float: right;
-  background-color:yellow;
+.intro {
+    width: 100%;
+    background-color: lightblue;
 }
 
-p.author{
-  width: 75%;
-  font-style: italic;
-  font-weight: bold;
+.intro p {
+    font-style: italic;
+    font-family: calibri;
+    min-height:100px;
+    width:100%;
 }
 
-p.important{
-  color:red;
+.intro img{
+  width: 100px;
+  max-width:30%;
+  float: left;
+}
+p.author {
+    width: 75%;
+    font-style: italic;
+    font-weight: bold;
 }
 
-.column{
-  width:60%;
-  float:left;
+p.important {
+    color: red;
 }
